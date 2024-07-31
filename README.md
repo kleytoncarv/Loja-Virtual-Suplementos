@@ -6,21 +6,21 @@ Modelo de Loja E-commerce para suplementos.
 # Sistema de Pedidos
 
 - Customer
-  name
-  email
+  - name
+  - email
   
 - Product
-  name
-  description
-  price
+  - name
+  - description
+  - price
 
 - Order
-  [OrderStatus]
-  [OrderItem]
-  total
+  - [OrderStatus]
+  - [OrderItem]
+  - total
   
 - OrderStatus
-  name (REALIZADO, EM PREPARAÇÃO, ENVIADO, ENTREGUE, FINALIZADO)
+  - name (REALIZADO, EM PREPARAÇÃO, ENVIADO, ENTREGUE, FINALIZADO)
 
 - OrderItem
   - product_id
